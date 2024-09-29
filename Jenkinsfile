@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('GIT') {
             steps {
-                git branch: 'main', url: 'https://github.com/nouhasedraoui/projetmaven.git'
+                git branch: 'master', url: 'https://github.com/hwafa/timesheetproject.git'
             }
         }
 
